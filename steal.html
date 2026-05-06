@@ -6,7 +6,7 @@
 
 <style> 
 
-body {background-image: url("woods.jpeg");
+body {background-image: url("kitchen.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -26,6 +26,7 @@ h1{ color: rgb(119, 161, 197);}
 
 h2{ color: rgb(102, 147, 186);}
 h2{font-style: italic;display: block; margin:auto; width: 20%}
+h2{text-align: center;}
 
 
 
@@ -39,13 +40,54 @@ p{
     padding: 0 4px;
     border-radius: 4px;
   }
+  p{font: size 20px;;}
+p{font-size: larger;}
+p{text-align: center;}
+p{font: size 20px;;}
 
 .end{color: azure;}
 
 img{display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%} 
+  width: 20%} 
+
+
+.choices{ padding-left: 35%;}
+.choices{ padding-left: 0%;}
+.choices{
+    background-color: #3ab7ed7d;
+    padding: 0 4px;
+    border-radius: 4px;
+  }
+  .choices{text-align: center;}
+
+ .choices{text-align: center;}
+  .choices{font-size: large;}
+  .img src{image-orientation: center;}
+  .choices li{
+    display: inline;
+
+}
+ul {
+  display: flex;           
+  list-style-type: none;    
+  padding: 500;
+  margin: 50;
+}
+li a {
+  padding: 10px 20px;       
+  text-decoration: none;   
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;        
+    gap: 20px;               
+    padding: 0;
+  }
 
 </style>
 
@@ -62,24 +104,34 @@ img{display: block;
     <h1>The Day of the Dead</h1>
 <br> 
 <br> 
-    <h2> You have chosen: Steal</h2>
+    <h2> You have chosen: Check for Food Supplies</h2>
 <br> 
 <br> 
 <br> 
 <br> 
-<img src="died.jpeg"
+<img src="fridge.jpeg" width="100"> 
 <br> 
 <br> 
 <br> 
-    <p> You slowly walk over to your groupmates bag careful not to make any noise. You shift around finding a water bottle, and canned fruit. 
-        You continue looking and right as your about to get up, they jolt awake and ask what your doing. You hide the contents behind you back but its 
-        no use. The grab your arm, relasing the contents and they notice your bite. 
+    <p> You slowly walk over to your kitchen, looking around for the non perishable items. You only find a can of peaches and 
+      three canned soups but it will have to do. You look around at your kitchen maybe for the last time. The picture of your friend 
+      and you layers the fridge, photos of you as chilren, teenagers and now adults. You wonder if you will ever see them again. You grab the food 
+      and put it on the table 
         <br> 
-        The Group exiles you to the woods, where you die alone.  
+      What now? 
     </p>
 
 <br> 
 <br> 
 <br> 
 <br> 
-    <a href="wepon.html">Change Your Fate?</a>
+<ul class="choices">
+
+   <li> <a href="leave.html"> Pack a Bag & Look for Other Wepons </a>
+   </li>
+   <br> 
+  <a href="leaving.html">Leave the Apartment</a>
+  </ul class="choices">
+
+</body>
+   
