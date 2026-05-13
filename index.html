@@ -5,12 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fridas Website</title>
 <style> 
-p class{font-size:14pt; font-family:Garamond;}
+p {
+  font-size: 14pt;
+  font-family: Garamond;
+}
+
+p {
+  font-size: 14pt;
+  font-family: Garamond;
+  color: aliceblue;
+  background-color: rgba(0, 80, 200, 0.25); 
+  border: 2px solid rgba(100, 180, 255, 0.8); 
+  border-radius: 15px; 
+  padding: 20px; 
+  max-width: 800px; 
+  margin: 20px auto; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+
 h1{color:white;}
 p{color: aliceblue;}
 .darkpurple{color:darkpurple;}
+
 .background{background-color: rgb(7, 4, 73); padding:20px;}
+.background {
+  background-color: rgba(7, 4, 73, 0.3); 
+}
+
 h1{font-style: italic;display: block; margin:auto; width: 20%}
+h1{text-align: center;}
+
+.headshot {
+  display: block;
+  margin: auto;
+  width: 300px;   
+  height: auto;
+  border-radius: 10px; 
+   border: 5px solid rgba(120, 0, 200, 0.657);
+}
+
+
+
+
 img{ display: block; margin:auto; width: 50%}
 body{ background-image: url("gliter.jpg");background-repeat: no-repeat;background-size:cover; 
 background-position: center; background-attachment:fixed;}
@@ -18,14 +57,86 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
+
+
+nav section {
+  margin-bottom: 20px;
+}
+
+nav h3 {
+  color: white;
+  margin-bottom: 10px;
+  font-family: Garamond;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.box {
+  background-color: rgba(20, 10, 80, 0.85);
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.box h2 {
+  color: white;
+  font-family: Garamond;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.box li {
+  margin: 8px 0;
+  text-align: center;
+}
+
+.box a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.box a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
 </style>
 </head>
 
 
 <body>
-<h1>Creative Statement</h1>
+<h1>Frida Chicaiza—Lab 06</h1>
 <br> 
-<img src="headshot.JPG" width="200">
+<img src="headshotnew.jpeg" class="headshot" width="700">
+<br>
+<h1>Creative Statement</h1>
 <br>
 <br>
 <p class="darkpurple"> My work as an artist revolves around visual mediums, focusing on photography and filmmaking. In using these visual mediums I will focus on
@@ -39,31 +150,50 @@ as something self-defined rather than idealized and consumed. </p>
 <header class="background">
     <nav>
         <ul>
-            <li><a href="reading1.html">Reading 1</a></li>
-            <li><a href="reading2.html">Reading 2</a></li>
-             <li><a href="reading3.html">Reading 3</a></li>
-             <li><a href="reading4.html">Reading 4</a></li>
-
-            <li><a href="homework2.html">Homework 2</a></li>
-            <li><a href="dof.html">Homework 3</a></li>
-            <li><a href="photomontage.html"> Homework 4</a></li>
-
-            <li><a href="field_blur.html">Field Blur Exercise</a></li>
-            <li><a href="camera_raw.html">Camera Raw Fix</a></li>
-            <li><a href="pattern.html">Custom Pattern</a></li>
-            <li><a href="emotiveeye.html">Emotive Eye & Illustrated Enviornment</a></li>
-             <li><a href="animatedgifs.html">Animated Gifs</a></li>
-
-            <li><a href="oralpresentation.html">Oral Presentation</a></li>
-            <li><a href="interactivestory.html">Interactive Story</a></li>
+            <div class="container">
            
+<div class="container">
+
+  <div class="box">
+    <h2>Readings</h2>
+    <ul>
+      <li><a href="reading1.html">Reading 1</a></li>
+      <li><a href="reading2.html">Reading 2</a></li>
+      <li><a href="reading3.html">Reading 3</a></li>
+      <li><a href="reading4.html">Reading 4</a></li>
+      <li><a href="extracredit.html">Extra Credit</a></li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Homework</h2>
+    <ul>
+      <li><a href="homework2.html">Homework 2</a></li>
+      <li><a href="dof.html">Homework 3</a></li>
+      <li><a href="photomontage.html">Homework 4</a></li>
+      <li><a href="field_blur.html">Field Blur Exercise</a></li>
+      <li><a href="camera_raw.html">Camera Raw Fix</a></li>
+      <li><a href="pattern.html">Custom Pattern</a></li>
+      <li><a href="emotiveeye.html">Emotive Eye & Illustrated Environment</a></li>
+      <li><a href="animatedgifs.html">Animated GIFs</a></li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="oralpresentation.html">Oral Presentation</a></li>
+      <li><a href="interactivestory.html">Interactive Story</a></li>
+    </ul>
+  </div>
+
+</div>
            
 
         </ul>
     </nav>
     <hr>
 </header>
-
 
 </body>
 </html>
